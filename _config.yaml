@@ -15,26 +15,26 @@ logos:
 footer:
   social:
     twitter: https://twitter.com/drivly
-    linkedin: https://twitter.com/drivly
-    github: https://twitter.com/drivly
+    linkedin: https://linkedin.com/drivly
+    github: https://github.com/drivly
   links:
     - Solutions:
       - Marketing: https://marketing.page.as
-      - Analytics: https://marketing.page.as
-      - Commerce: https://marketing.page.as
-      - Insights: https://marketing.page.as
+      - Analytics: https://analytics.page.as
+      - Commerce: https://commerce.page.as
+      - Insights: https://insights.page.as
     - Support:
-      - Pricing: https://marketing.page.as
-      - Documentation: https://marketing.page.as
-      - Guides: https://marketing.page.as
-      - API Status: https://marketing.page.as
+      - Pricing: https://pricing.page.as
+      - Documentation: https://documentation.page.as
+      - Guides: https://guide.page.as
+      - API Status: https://api.status.page.as
     - Company:
-      - About: https://marketing.page.as
-      - Blog: https://marketing.page.as
-      - Jobs: https://marketing.page.as
-      - Partners: https://marketing.page.as
+      - About: https://about.page.as
+      - Blog: https://blogs.as
+      - Jobs: https://jobs.page.as
+      - Partners: https://partner.page.as
     - Legal:
-      - Privacy: https://marketing.page.as
-      - Terms: https://marketing.page.as
+      - Privacy: https://privacy.page.as
+      - Terms: https://terms.page.as
       
     
