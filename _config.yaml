@@ -13,8 +13,18 @@ logos:
     logo: 
     link: https://saas.dev
 footer:
+  social:
+    twitter: https://twitter.com/drivly
+    linkedin: https://twitter.com/drivly
+    github: https://twitter.com/drivly
   links:
     - Solutions:
+      - Marketing: https://marketing.page.as
+    - Support:
+      - Marketing: https://marketing.page.as
+    - Company:
+      - Marketing: https://marketing.page.as
+    - Legal:
       - Marketing: https://marketing.page.as
       
     
