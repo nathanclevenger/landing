@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <!-- HTML Meta Tags -->
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="{{ site.title }}">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="{{ site.image | default: 'https://opengraph.githubassets.com/0b7b051d3a37b58ffe0b3c9abc1f8c179c0e698c70135a53186224ec1b1c7b56/nathanclevenger/ship' }}">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://{{ site.name | default: 'landing.page.as' }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.image | default: 'https://opengraph.githubassets.com/0b7b051d3a37b58ffe0b3c9abc1f8c179c0e698c70135a53186224ec1b1c7b56/nathanclevenger/ship' }}">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ site.image | default: 'https://opengraph.githubassets.com/0b7b051d3a37b58ffe0b3c9abc1f8c179c0e698c70135a53186224ec1b1c7b56/nathanclevenger/ship' }}">
+
+  <style type="text/css">
+    body, html
+    {
+      margin: 0; padding: 0; height: 100%; overflow: hidden;
+    }
+    #content
+    {
+      position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
+    }
+  </style>
+  
+</head>
+<body>
+  <div id="content">
+    <iframe width="100%" height="100%" frameborder="0" src="https://www.producthunt.com/upcoming/{{ site.name | default: 'landing-page-as' }}" />
+  </div>
+</body>
+</html>
