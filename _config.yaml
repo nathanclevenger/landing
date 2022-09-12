@@ -12,4 +12,9 @@ logos:
   - SaaS.Dev:
     logo: 
     link: https://saas.dev
+footer:
+  links:
+    - Solutions:
+      - Marketing: https://marketing.page.as
+      
     
