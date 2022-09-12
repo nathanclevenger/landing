@@ -1,6 +1,15 @@
+remote_theme: nathanclevenger/landing
 title: Landing.Page.as - Beautiful Landing Pages on GitHub Pages
 description: 
+icon: 
+logo: 
 hero:
-  headline:
+  title:
     - Line 1
     - Line 2
+  description: Discover the types of APIs that can change everything.
+logos:
+  - SaaS.Dev:
+    logo: 
+    link: https://saas.dev
+    
