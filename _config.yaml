@@ -25,21 +25,21 @@ footer:
     linkedin: https://www.linkedin.com/in/nathanclevenger/
     github: https://github.com/nathanclevenger
   links:
-    - Solutions:
-      - Marketing: https://marketing.page.as
-      - Analytics: https://analytics.page.as
-      - Commerce: https://commerce.page.as
-      - Insights: https://insights.page.as
-    - Support:
-      - Pricing: https://pricing.page.as
-      - Documentation: https://documentation.page.as
-      - Guides: https://guide.page.as
-      - Status: https://status.page.as
-    - Company:
-      - About: https://about.page.as
-      - Blog: https://blogs.as
-      - Jobs: https://jobs.page.as
-      - Partners: https://partner.page.as
-    - Legal:
-      - Privacy: https://privacy.page.as
-      - Terms: https://terms.page.as
+    Solutions:
+      Marketing: https://marketing.page.as
+      Analytics: https://analytics.page.as
+      Commerce: https://commerce.page.as
+      Insights: https://insights.page.as
+    Support:
+      Pricing: https://pricing.page.as
+      Documentation: https://documentation.page.as
+      Guides: https://guide.page.as
+      Status: https://status.page.as
+    Company:
+      About: https://about.page.as
+      Blog: https://blogs.as
+      Jobs: https://jobs.page.as
+      Partners: https://partner.page.as
+    Legal:
+      Privacy: https://privacy.page.as
+      Terms: https://terms.page.as
