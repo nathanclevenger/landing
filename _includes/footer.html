@@ -35,71 +35,19 @@
                   </li>
               </ul>
           </div>
-          <div class="lg:mx-auto">
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+        
+          {% for group in site.footer.links %}         
+            <div class="lg:mx-auto">
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">{{ group[0] }}</h2>
               <ul class="text-gray-500 dark:text-gray-400">
+                {% for link in group[1] %}  
                   <li class="mb-4">
-                      <a href="#" class=" hover:underline">About</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Careers</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Brand Center</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Blog</a>
+                      <a href="link[1]" class=" hover:underline">link[0]</a>
                   </li>
               </ul>
-          </div>
-          <div class="lg:mx-auto">
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
-              <ul class="text-gray-500 dark:text-gray-400">
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Discord Server</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Twitter</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Facebook
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Contact Us</a>
-                  </li>
-              </ul>
-          </div>
-          <div class="lg:mx-auto">
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-              <ul class="text-gray-500 dark:text-gray-400">
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Privacy Policy</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Licensing</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Terms</a>
-                  </li>
-              </ul>
-          </div>
-          <div class="lg:mx-auto">
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
-              <ul class="text-gray-500 dark:text-gray-400">
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">iOS</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Android</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">Windows</a>
-                  </li>
-                  <li class="mb-4">
-                      <a href="#" class="hover:underline">MacOS</a>
-                  </li>
-              </ul>
-          </div>
+            </div>
+          {% endfor %}
+        
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
       <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© {{ 'now' | date: "%Y" }} <a href="#" class="hover:underline">{{ site.name }}</a>. All Rights Reserved.</span>
