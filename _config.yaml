@@ -1,4 +1,5 @@
 remote_theme: nathanclevenger/landing
+
 title: Landing.Page.as - Beautiful Landing Pages on GitHub Pages
 description: 
 icon: 
@@ -39,8 +40,3 @@ footer:
     - Legal:
       - Privacy: https://privacy.page.as
       - Terms: https://terms.page.as
-plugins:
-  - jekyll-get-json
-jekyll_get_json:
-  - data: people
-    json: https://json.fyi/people.json
