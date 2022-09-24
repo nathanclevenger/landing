@@ -27,10 +27,58 @@
   <meta name="twitter:description" content="{{ site.description }}">
   <meta name="twitter:image" content="{{ site.image | default: 'https://opengraph.githubassets.com/0b7b051d3a37b58ffe0b3c9abc1f8c179c0e698c70135a53186224ec1b1c7b56/nathanclevenger/ship' }}">
   
-  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+<!--   <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" /> -->
   
-<!--   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: {"50":"#eff6ff","100":"#dbeafe","200":"#bfdbfe","300":"#93c5fd","400":"#60a5fa","500":"#3b82f6","600":"#2563eb","700":"#1d4ed8","800":"#1e40af","900":"#1e3a8a"}
+          }
+        },
+        fontFamily: {
+          'body': [
+        'Inter', 
+        'ui-sans-serif', 
+        'system-ui', 
+        '-apple-system', 
+        'system-ui', 
+        'Segoe UI', 
+        'Roboto', 
+        'Helvetica Neue', 
+        'Arial', 
+        'Noto Sans', 
+        'sans-serif', 
+        'Apple Color Emoji', 
+        'Segoe UI Emoji', 
+        'Segoe UI Symbol', 
+        'Noto Color Emoji'
+      ],
+          'sans': [
+        'Inter', 
+        'ui-sans-serif', 
+        'system-ui', 
+        '-apple-system', 
+        'system-ui', 
+        'Segoe UI', 
+        'Roboto', 
+        'Helvetica Neue', 
+        'Arial', 
+        'Noto Sans', 
+        'sans-serif', 
+        'Apple Color Emoji', 
+        'Segoe UI Emoji', 
+        'Segoe UI Symbol', 
+        'Noto Color Emoji'
+      ]
+        }
+      }
+    }
+  </script>
   
 </head>
 <body>
