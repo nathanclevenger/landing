@@ -38,7 +38,7 @@ benefits:
     code: 
 faq:
   Can your API handle our demand?: Yes, Our business is built on handling very large amounts of load, and we are currently managing 10,000,000+ API calls/ day at 99.999% uptime.
-  What if I need an additional use case?: You can contact our support team here: 
+  What if I need an additional use case?: You can contact our support team [here](mailto:support@example.com)
 footer:
   social:
     twitter: https://twitter.com/nateclev
