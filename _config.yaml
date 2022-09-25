@@ -39,11 +39,13 @@ pricing:
     features:
       - Use your own domain
       - Or Unlimited premium subdomains
+    link: https://buy.stripe.com/00g7vNftSeOx9bicMO
   Startup:
     description: 
     monthlyPrice: $50
     features:
       - GPT-3 AI-powered content generation
+    link: https://buy.stripe.com/cN217p95u0XH5Z63cd
 logos:
   SaaS.Dev:
     logo: 
