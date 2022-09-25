@@ -4,7 +4,7 @@
       theme: {
         extend: {
           colors: {
-            primary: tailwind.colors.{{ site.theme.color  | default: 'blue' }}
+            primary: tailwind.colors.{{ site.theme.color  |  default: site.color | default: 'blue' | site.theme.color }}
           }
         },
         fontFamily: {
@@ -26,7 +26,7 @@
         'Noto Color Emoji'
       ],
           'sans': [
-        '{{ site.theme.font  | default: 'Inter' }}', 
+        '{{ site.theme.font  | default: 'Inter' | site.theme.font }}', 
         'ui-sans-serif', 
         'system-ui', 
         '-apple-system', 
