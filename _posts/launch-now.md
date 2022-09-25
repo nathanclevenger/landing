@@ -1,6 +1,6 @@
 ---
-title: 
-author: 
+title: Have an idea? Launch it now!
+author: Nathan Clevenger
 ---
 
 # Have an idea? Launch it now!
