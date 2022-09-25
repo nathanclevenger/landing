@@ -47,7 +47,12 @@
   {% include pricing.html %}
   {% include faq.html %}
   {% include cta.html %}
-  {% include footer.html %}
+  
+  {% if  site.footer.links %}
+    {% include footer.html %}
+  {% else %}
+    {% include footer-minimal.html %}
+  {% endif %}
   
   <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
   <script src="https://unpkg.com/prismjs@v1.x/components/prism-core.min.js"></script>
