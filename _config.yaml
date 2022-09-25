@@ -29,6 +29,13 @@ logos:
   - API.Mt:
       logo: 
       link: https://api.mt
+benefits:
+  Beautiful Design:
+    description:
+    code: 
+  Easy to Code:
+    description:
+    code: 
 footer:
   social:
     twitter: https://twitter.com/nateclev
