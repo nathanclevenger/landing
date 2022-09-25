@@ -10,10 +10,18 @@ theme:
   font: Inter
 logo: 
 hero:
-  title:
-    - Line 1
-    - Line 2
+  callout: 
+    name: NEW
+    text: Landing.Page.as is now released! Check it out now
+  title: Beautiful Landing Pages on GitHub Pages
   description: Discover the types of APIs that can change everything.
+  cta:
+    primary: 
+      text: Get Started
+      link: {{ site.github.repo_url }}
+    secondary: 
+      text: Learn More
+      link: #features
 logos:
   - SaaS.Dev:
       logo: 
