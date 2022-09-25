@@ -1,0 +1,27 @@
+<footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+  <div class="mx-auto max-w-screen-xl text-center">
+      <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
+          {{ site.icon }}
+          {{ site.name }}    
+      </a>
+      <p class="my-6 text-gray-500 dark:text-gray-400">{{ site.description }}</p>
+      <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+          <li>
+              <a href="#pricing" class="mr-4 hover:underline md:mr-6 ">Pricing</a>
+          </li>
+          <li>
+              <a href="#features" class="mr-4 hover:underline md:mr-6">Features</a>
+          </li>
+          <li>
+              <a href="#benefits" class="mr-4 hover:underline md:mr-6 ">Benefits</a>
+          </li>
+          <li>
+              <a href="#faqs" class="mr-4 hover:underline md:mr-6">FAQs</a>
+          </li>
+          <li>
+              <a href="/login" class="mr-4 hover:underline md:mr-6">Get Started</a>
+          </li>
+      </ul>
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {{ 'now' | date: "%Y" }} <a href="#" class="hover:underline">{{ site.name }}</a>. All Rights Reserved.</span>
+  </div>
+</footer>
