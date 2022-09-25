@@ -6,8 +6,8 @@ description: Get your next big idea launched in seconds with a beautiful open-so
 icon: 🚀
 theme:
   color: indigo
-  font: Inter
   darkMode: false
+  font: Inter
 logo: 
 hero:
   title:
