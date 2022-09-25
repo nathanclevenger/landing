@@ -16,19 +16,15 @@ hero:
   title: Beautiful Landing Pages on GitHub Pages
   description: Get your next big idea launched in seconds with a beautiful open-source landing page template for GitHub Pages.
   cta:
-    primary: 
-      text: Get Started
-      link: https://github.com/nathanclevenger/minimal-landing-page/generate
-    secondary: 
-      text: Learn More
-      link: #features
+    Get Started: https://github.com/nathanclevenger/minimal-landing-page/generate
+    Learn More: #features
 logos:
-  - SaaS.Dev:
-      logo: 
-      link: https://saas.dev
-  - API.Mt:
-      logo: 
-      link: https://api.mt
+  SaaS.Dev:
+    logo: 
+    link: https://saas.dev
+  API.Mt:
+    logo: 
+    link: https://api.mt
 benefits:
   Beautiful Design:
     description:
