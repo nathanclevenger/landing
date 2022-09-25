@@ -1,9 +1,9 @@
 remote_theme: nathanclevenger/landing
 
+icon: 🚀
 name: Landing.Page.as
 title: Beautiful Landing Pages on GitHub Pages
 description: Get your next big idea launched in seconds with a beautiful open-source landing page template for GitHub Pages.
-icon: 🚀
 theme:
   color: indigo
   darkMode: false
@@ -18,6 +18,14 @@ hero:
   cta:
     Get Started: https://github.com/nathanclevenger/minimal-landing-page/generate
     Learn More: #features
+benefits:
+  Easy to Use:
+    description: 
+    code: |
+      icon: 🚀
+      name: Landing.Page.as
+      title: Beautiful Landing Pages on GitHub Pages
+      description: Get your next big idea launched in seconds with a beautiful open-source landing page template for GitHub Pages.
 logos:
   SaaS.Dev:
     logo: 
