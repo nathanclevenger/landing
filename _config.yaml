@@ -18,7 +18,7 @@ hero:
   cta:
     primary: 
       text: Get Started
-      link: {{ site.github.repo_url }}
+      link: https://github.com/nathanclevenger/minimal-landing-page/generate
     secondary: 
       text: Learn More
       link: #features
