@@ -17,9 +17,16 @@ hero:
   description: Get your next big idea launched in seconds with a beautiful open-source landing page template for GitHub Pages.
   cta:
     Get Started: https://github.com/nathanclevenger/minimal-landing-page/generate
-    Learn More: #features
+    Learn More: #benefits
 benefits:
-  Easy to Use:
+  Ship Instantly:
+    description: 
+    code: |
+      icon: 🚀
+      name: Landing.Page.as
+      title: Beautiful Landing Pages on GitHub Pages
+      description: Get your next big idea launched in seconds with a beautiful open-source landing page template for GitHub Pages.
+  Iterate at the Speed of Thought:
     description: 
     code: |
       icon: 🚀
