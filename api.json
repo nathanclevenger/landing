@@ -1,0 +1,14 @@
+{
+  "name": "landing",
+  "description": "Landing Page Template for Github Pages",
+  "url": "https://landing.page.as/api",
+  "type": "https://apis.do/api",
+  "endpoints": {
+    "api": "https://landing.page.as/api"
+  },
+  "site": "https://landing.page.as",
+  "login": "https://landing.page.as/login",
+  "signup": "https://landing.page.as/signup",
+  "subscribe": "https://landing.page.as/subscribe",
+  "repo": "https://github.com/nathanclevenger/landing"
+}
