@@ -11,7 +11,7 @@ jobs:
     name: Deploy
     steps:
       - uses: actions/checkout@v3
-      - uses: nathanclevenger/api-json-action@beta
+      - uses: nathanclevenger/api-json-action@v0.2.0
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "🚀 api.json Generated Successfully"
